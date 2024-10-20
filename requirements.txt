@@ -1,0 +1,23 @@
+# Essential libraries
+warnings
+math
+ast
+json
+os
+
+# Data processing
+pandas
+numpy
+
+# Data visualization
+matplotlib
+seaborn
+
+# Scikit-learn for preprocessing and model evaluation
+scikit-learn
+
+# XGBoost classifier
+xgboost
+
+# imbalanced-learn for handling imbalanced datasets
+imbalanced-learn
