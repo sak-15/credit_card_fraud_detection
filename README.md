@@ -11,7 +11,14 @@ This project aims to build a machine learning model to detect fraudulent transac
 ---
 
 ## Dataset
-The dataset is sourced from [Kaggle's Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud). It contains 284,807 transactions, with 492 labeled as fraudulent (about 0.17% of the total data). Features have been transformed using PCA for privacy reasons.
+The dataset is sourced from [Kaggle's Credit Card Fraud Detection dataset](https://www.kaggle.com/competitions/nus-fintech-recruitment). 
+
+#### Files
+train.csv - the training set. Contains credit card transactions that occurred from Aug - Dec 2021
+test.csv - the test set for submission. Contains credit card transactions that occurred from Jan - Apr 2022. Only predictions for transactions that occurred in Apr 2022 need to be submitted. Please sort your submission by the transaction ID in ascending order
+sample_submission.csv - a sample submission file in the correct format
+customer.csv - list of customers and their respective customer IDs. A pair of coordinates (x_customer_id, y_customer_id) is provided to indicate the location of the customer
+terminal.csv - list of merchants (terminals) and their respective terminal IDs. A pair of coordinates (x_terminal_id, y_terminal_id) is provided to indicate the location of the terminal
 
 ---
 
@@ -20,5 +27,6 @@ The dataset is sourced from [Kaggle's Credit Card Fraud Detection dataset](https
 ```bash
 ├── data/                   # Dataset files
 ├── notebooks/              # Jupyter notebooks for exploration and modeling
-├── src/                    # Scripts for data preprocessing and model training
+├── requirements.txt/       # Required libraries for setting up environment
+├── hyperparameters/        # estimators for xgb
 └── README.md               # Project documentation
