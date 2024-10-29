@@ -58,20 +58,6 @@ Preprocessing is the process of cleaning the dataset. In this step, we will appl
 
 ---
 
-### Exploratory Data Analysis (EDA)
-
-Exploratory Data Analysis, or EDA, helps us understand the dataset in-depth. During EDA, we look at the distribution of fraud cases and investigate if patterns exist, such as specific times when fraud is more likely. This analysis provides a foundation for informed feature engineering.
-
-- **Fraud vs. Non-fraud distribution.**
-
-![image](https://github.com/user-attachments/assets/91edcb85-eb2f-4126-906c-a17cd8f9a386)
-
-- **Distribution of Transaction Amounts (Fraud vs Non-Fraud)**
-  
-  ![image](https://github.com/user-attachments/assets/479f1ebb-e191-4471-b323-21df8b53a5cf)
-
-
-
 ### Handling Imbalance Data
 
 **What is Imbalanced data ?**
